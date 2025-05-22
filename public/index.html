@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
     <!-- CSS reset -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
     <!-- External CSS -->
@@ -10,11 +14,184 @@
 
     <title>Document</title>
 </head>
-<body>
 
-    
+<body>
+    <!-- header start -->
+    <header class="header">
+        <!-- nav bar container -->
+        <div class="container">
+            <!-- logo -->
+            <img src="images/icon-layout.png" alt="Logo" class="logo" />
+            <!-- Grid Logo -->
+            <a href="#" class="logoText">Grid</a>
+            <!-- Nav bar -->
+            <nav class="nav" aria-label="Main Navigation">
+                <button class="hamburger" aria-label="Menu">&#9776;</button>
+                <ul class="nav-links">
+                    <li><a href="#">How it works</a></li>
+                    <li>•</li>
+                    <li><a href="#">Who we are</a></li>
+                    <li>•</li>
+                    <li><a href="#">What we do</a></li>
+                    <li>•</li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+                <a href="#" class="btn btn-signin">Sign In</a>
+            </nav>
+        </div>
+    </header>
+    <!-- End header -->
+    <!-- Main start -->
+
+    <main>
+        <!-- hero section start -->
+        <section class="hero">
+            <!-- hero grid -->
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <h1>
+                        Combine <span class="highlight">fine</span> images<br />
+                        <small>To represent a product</small>
+                    </h1>
+
+                </div>
+                <div class="hero-images">
+                    <!-- Replace with actual assets -->
+                    <img src="images\ea9db50d0990c6b8d3f5e565cd874d425d2f8dce.png" alt="Design layout 1" />
+                    <img src="images\2a107b590bad14417bb9216c95dd080c10f414a0.png" alt="Design layout 2" />
+                    <img src="images\d439ca0bba6a94b825848b5a215c85ce9c86e5a6.png" alt="Design layout 3" />
+                    <img src="images\27e3eacc8fb427e54cc0be714286c5976040454c.jpg" alt="Design layout 4" />
+                    <img src="images\4f1d77d4f6788810009e4bd9b706b3269b39124a.png" alt="Design layout 5" />
+                    <img src="images\b356aa1f91270ab4fd9f1671176d996f44fe974c.png" alt="Design layout 6" />
+                    <img src="images\13cf532c65ddea97152556a79bf3034d24cdf478.png" alt="Design layout 7" />
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </section>
+        <!-- features part -->
+        <section class="features container">
+            <h2>Delivering good designs since 1954 🚚💨</h2>
+            <p>
+                We’re the first multi-purpose design kit for businesses. We help you bridge gaps between your layouts,
+                templates and developers to empower all involved.
+            </p>
+            <div class="feature-list">
+                <article>
+                    <h3>Support</h3>
+                    <p>Detailed documentation and tutorials to get you started fast and smooth.</p>
+                    <a href="#">Learn more</a>
+                </article>
+                <article>
+                    <h3>Sales Growth</h3>
+                    <p>Boost sales with clean and persuasive landing pages.</p>
+                    <a href="#">Learn more</a>
+                </article>
+                <article>
+                    <h3>Components-driven</h3>
+                    <p>Design faster with pre-built components and style systems.</p>
+                    <a href="#">Learn more</a>
+                </article>
+                <article>
+                    <h3>Swap the Icon</h3>
+                    <p>Use icon packs or upload your own with ease.</p>
+                    <a href="#">Learn more</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="pricing container">
+            <h2>Affordable pricing</h2>
+            <div class="toggle">
+                <span>Bill me</span>
+                <button id="billing-toggle" aria-pressed="false">monthly</button>
+                <span>yearly</span>
+            </div>
+            <div class="pricing-cards">
+                <article class="card">
+                    <h3>Like a pussy</h3>
+                    <p class="price">$0</p>
+                    <ul>
+                        <li>Components-driven system</li>
+                        <li>Lifetime updates</li>
+                        <li>Awesome Feather icon pack</li>
+                    </ul>
+                    <button class="btn">Try for free</button>
+                </article>
+                <article class="card highlight">
+                    <h3>Individual</h3>
+                    <p class="price">$24</p>
+                    <ul>
+                        <li>All Free features</li>
+                        <li>Custom branding</li>
+                        <li>Premium illustrations</li>
+                    </ul>
+                    <button class="btn btn-primary">Regular License</button>
+                </article>
+                <article class="card">
+                    <h3>Corporate</h3>
+                    <p class="price">$12</p>
+                    <ul>
+                        <li>All Individual features</li>
+                        <li>Team collaboration tools</li>
+                        <li>Theme in 3 styles</li>
+                    </ul>
+                    <button class="btn">Extended License</button>
+                </article>
+            </div>
+        </section>
+
+
+    </main>
+
+ <footer class="footer">
+    <div class="container">
+        <div class="footer-column footer-follow">
+            <p class="footer-title">FOLLOW US</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon" style="background-color: #ffcc00;"><span>🇫</span></a>
+                <a href="#" class="social-icon" style="background-color: #0077b5;"><span>🇮</span></a>
+                <a href="#" class="social-icon" style="background-color: #1da1f2;"><span>🇹</span></a>
+            </div>
+        </div>
+        <div class="footer-column footer-email">
+            <p class="footer-title">FOLLOW US</p>
+            <p class="email">hello@fapsterapp.com</p>
+        </div>
+        <div class="footer-column footer-touch">
+            <p class="footer-title">KEEP IN TOUCH</p>
+            <p>About Fapster app</p>
+            <p>Onhovered / Active</p>
+            <p>We are hiring!</p>
+        </div>
+        <div class="footer-column footer-form">
+            <form>
+                <input type="text" placeholder="Your name" required>
+                <input type="email" placeholder="E-mail" required>
+                <textarea placeholder="Leave your message" required></textarea>
+                <button type="submit" class="btn-send">SEND</button>
+            </form>
+        </div>
+        <div class="footer-column footer-info">
+            <p class="footer-title">INFORMATION</p>
+            <p>Get in Touch</p>
+            <p>Privacy Policy</p>
+            <p>Resources</p>
+            <p>Things We Like</p>
+            <p>Terms of Service</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 Your Company</p>
+        <div class="social-icons-bottom">
+            <a href="#" class="social-icon-bottom" style="background-color: #ffcc00;"><span>🇫</span></a>
+            <a href="#" class="social-icon-bottom" style="background-color: #0077b5;"><span>🇮</span></a>
+            <a href="#" class="social-icon-bottom" style="background-color: #1da1f2;"><span>🇹</span></a>
+        </div>
+    </div>
+</footer>
 
     <!-- JS link -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
