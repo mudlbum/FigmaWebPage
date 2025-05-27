@@ -159,17 +159,6 @@ ol {
   padding: 60px 0;
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 150px;
-  height: 150px;
-  background: radial-gradient(circle, #ffd700 20%, rgba(255, 215, 0, 0) 70%);
-  opacity: 0.5;
-}
-
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr;
